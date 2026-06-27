@@ -2,6 +2,8 @@
 
 Code for my robot.
 
+<img src="assets/pascal.jpg" alt="pascal" width="300" height="400" />
+
 ## Quickstart
 
 ```sh
