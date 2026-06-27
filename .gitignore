@@ -1,0 +1,33 @@
+# Local environment
+.env
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Build outputs
+dist/
+build/
+target/
+.pio/
+node_modules/
+
+# macOS
+.DS_Store
+
+# Xcode / iOS user state and local build products
+DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+*.moved-aside
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.ipa
+*.dSYM.zip
+*.dSYM/
+
+# Generated from .env by the Xcode build phase.
+modules/interfaces/mobile/ios/PascalMobile/GeneratedConfig.swift
