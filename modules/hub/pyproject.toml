@@ -1,0 +1,23 @@
+[project]
+name = "pascal-hub"
+version = "0.1.0"
+requires-python = ">=3.11,<3.13"
+description = "FastAPI server for Pascal"
+dependencies = [
+    "fastapi>=0.115,<0.117",
+    "uvicorn[standard]>=0.34,<0.36",
+    "httpx>=0.28,<0.29",
+    "aiortc>=1.9,<2",
+    "pillow>=10,<12",
+    "fastmcp>=3.4.0",
+]
+
+[project.scripts]
+hub-server = "server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+only-include = ["config.py", "movement.py", "schemas.py", "server.py", "webrtc.py"]
