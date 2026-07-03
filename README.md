@@ -4,6 +4,8 @@ Code for my robot.
 
 <img src="assets/pascal.jpg" alt="pascal" width="300" height="400" />
 
+> "I'm sorry Dave, I'm afraid I can't do that"
+
 ## Quickstart
 
 ```sh
